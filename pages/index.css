@@ -252,3 +252,15 @@
     color: #fff;
     width: 100%;
 }
+
+/* Chrome, Safari, Edge, Opera to adjust view of the number field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox to adjust view of the number field */
+input[type=number] {
+  -moz-appearance: textfield;
+}
