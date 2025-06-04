@@ -144,7 +144,8 @@
     list-style-position: inside;
 }
 
-.recipe__video{
+.recipes__iframe{
+    border: 0px;
     border-radius: 5px;
 }
 
