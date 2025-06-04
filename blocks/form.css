@@ -1,0 +1,75 @@
+.form__fieldset{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: none;
+    flex-direction: column;
+}
+
+.form__label{
+    margin: 0 0 8px;
+    padding: 0;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+
+.form__input{
+    margin: 0 0 32px;
+    padding: 15px 20px;
+    border: 1px solid #838383;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    border-radius: 4px;
+}
+
+.form__input::placeholder{
+    color: #838383;
+}
+
+
+.form__checkbox{
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.form__label_type_checkbox{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.form__button{
+    margin: 0 0 32px;
+    padding: 20px 0;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1878dc;
+    color: #fff;
+    width: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera to adjust view of the number field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox to adjust view of the number field */
+input[type=number] {
+  -moz-appearance: textfield;
+}
