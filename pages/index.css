@@ -6,3 +6,75 @@
     font-size: 16px;
     line-height: 20px;
 }
+
+.header{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px 80px 40px;
+    height: 800px;
+        background-color: #fff;
+        background-image: url(../images/background_header.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+
+.header__title{
+    margin: 183px 0 0;
+}
+
+.header__description{
+    margin-top: 28px;
+    max-width: 683px;
+}
+
+.header__image{
+    position: absolute;
+        top: 124px;
+        right: 5px;
+    width: 646px;
+    height: 568px;
+}
+
+.header__footer{
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__paragraph{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo{
+    width: 105px;
+    height: 39px;
+    position: relative;
+    left: -50px;
+}
+
+.nav__links{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000;
+}
