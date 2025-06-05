@@ -28,14 +28,14 @@ This project is part of the education curriculum and is focused solely on fronte
 
 ## 📁 Project Structure
 
-se_project_coffeeshop/
+```se_project_coffeeshop/
 │
 ├── blocks/ # Reusable BEM-based CSS blocks
 ├── images/ # Project assets and icons
 ├── pages/ # Contains the index.html file
 ├── vendor/ # Fonts and third-party assets
 ├── README.md # You're here!
-└── .gitignore # Standard gitignore file
+└── .gitignore # Standard gitignore file```
 
 
 ## 📸 Features
@@ -62,7 +62,7 @@ No build tools or additional setup required – this project runs as-is in any m
 - Mockups and assets provided by TripleTen
 - Developed by Ry Bealey
 
-## License
+## 📜 License
 This project is for educational purposes and is not licensed for commercial use.
 
 ## Get started with your software engineering journey wiht TripleTen!
