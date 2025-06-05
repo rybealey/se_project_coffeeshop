@@ -28,14 +28,16 @@ This project is part of the education curriculum and is focused solely on fronte
 
 ## 📁 Project Structure
 
-```se_project_coffeeshop/
+```
+se_project_coffeeshop/
 │
 ├── blocks/ # Reusable BEM-based CSS blocks
 ├── images/ # Project assets and icons
 ├── pages/ # Contains the index.html file
 ├── vendor/ # Fonts and third-party assets
 ├── README.md # You're here!
-└── .gitignore # Standard gitignore file```
+└── .gitignore # Standard gitignore file
+```
 
 
 ## 📸 Features
